@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="una página mala" />
+    <script src="https://kit.fontawesome.com/bae8da0a26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Hello World!</title>
   </head>
@@ -21,17 +22,26 @@
 
     <div id="background">&nbsp</div>
 
-    <audio autoplay hidden loop>
+    <audio autoplay hidden loop id="song">
       <source src="song.mp3" type="audio/mpeg" />
     </audio>
 
     <p class="title">This website is not finishied :p</p>
 
-    <img id="image1" src="https://cdn.discordapp.com/attachments/718335590495551604/787870939966472212/esta_va_pal_admin.gif"/>
-    <img id="image2" src="https://cdn.discordapp.com/emojis/742117417450209296.gif?v=1"/>
+    <!-- <img id="image1" src="https://cdn.discordapp.com/attachments/718335590495551604/787870939966472212/esta_va_pal_admin.gif"/>
+    <img id="image2" src="https://cdn.discordapp.com/emojis/742117417450209296.gif?v=1"/> -->
     <img id="image3" src="https://cdn.discordapp.com/emojis/785071210580672522.gif?v=1"/>
-    <img id="image4" src="https://cdn.discordapp.com/emojis/698342597395218522.gif?v=1"/>
+    <!-- <img id="image4" src="https://cdn.discordapp.com/emojis/698342597395218522.gif?v=1"/>
     <img id="image5" src="https://cdn.discordapp.com/emojis/698342599823720499.gif?v=1"/>
+    <img id="image6" src="https://cdn.discordapp.com/emojis/751866576549969981.gif?v=1">
+    <img id="image7" src="https://cdn.discordapp.com/emojis/766466203295416323.gif?v=1">
+    <img id="image8" src="https://cdn.discordapp.com/emojis/759169200777855017.gif?v=1">
+    <img id="image9" src="https://cdn.discordapp.com/emojis/729831725445808161.gif?v=1">
+    <img id="image10" src="https://cdn.discordapp.com/emojis/774418924779208774.gif?v=1">
+    <img id="image11" src="https://cdn.discordapp.com/emojis/765352647120519179.gif?v=1">
+    <img id="image12" src="https://cdn.discordapp.com/emojis/645117584819093525.gif?v=1"> -->
+
+    <button onclick="toggleSong()"><span><i class="fas fa-pause" id="icon"></i></span></button>
 
     <script src="scripts.js"></script>
   </body>

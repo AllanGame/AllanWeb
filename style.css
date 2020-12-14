@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+body {
+  background-color: #321e25;
+}
 header {
   display: flex;
   height: 10px;
@@ -58,31 +61,36 @@ header {
   left: 600px;
 }
 #image1 {
-  position: absolute;
-  left: 1258px;
-  top: 15px;
+  position: relative;
+  left: 1208px;
+  top: -143px;
 }
 
 #image2 {
-  position: absolute;
-  left: 475px;
-  top: 6px;
+  position: relative;
+  left: 235px;
+  top: -144px;
 }
 
 #image3 {
   position: absolute;
-  left: 105px;
+  left: 115px;
   top: 10px;
 }
 
-#image4 {
-  position: absolute;
-  left: 348px;
-  top: 550px;  
-} 
-
 #image5 {
-  position: absolute;
+
+  position: relative;
+  size: 30%;
   left: 666px;
   top: 555px;
 }
+
+/* #image8 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}  */
+
+
+
