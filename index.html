@@ -9,65 +9,30 @@
   </head>
 
   <body>
+    <header>
+      <nav>
+        <ul class="navlinks">
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <p class="cta">Contact</p>
+    </header>
 
-        <header>
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                  </ul>
-        </nav>
-        <p class="menu cta">Contact</p>
-      </header>
-      
-      <div id="background">&nbsp</div>
-      
-      <audio autoplay hidden loop>
-          <source src="song.mp3" type="audio/mpeg">
-      </audio>
-    
+    <div id="background">&nbsp</div>
 
-      <p class="title">This website is not finishied :p</p>
+    <audio autoplay hidden loop>
+      <source src="song.mp3" type="audio/mpeg" />
+    </audio>
 
-      <div class="colors">
-        <img id="image1" src="https://cdn.discordapp.com/attachments/718335590495551604/787870939966472212/esta_va_pal_admin.gif">
-        <img id="image2" src="https://cdn.discordapp.com/emojis/742117417450209296.gif?v=1">
-        <img id="image3" src="https://cdn.discordapp.com/emojis/785071210580672522.gif?v=1">
-        <img id="image4" src="https://cdn.discordapp.com/emojis/698342597395218522.gif?v=1">
-        <img id="image5" src="https://cdn.discordapp.com/emojis/698342599823720499.gif?v=1">
-      </div>
+    <p class="title">This website is not finishied :p</p>
 
-    <script>
-var i = 0;
-function change() {
-  var doc = document.body
-  var color = ["blue", "yellow", "green", "red"];
-  doc.style.backgroundColor = color[i];
-  i = (i + 1) % color.length;
-}
-setInterval(change, 300);
+    <img id="image1" src="https://cdn.discordapp.com/attachments/718335590495551604/787870939966472212/esta_va_pal_admin.gif"/>
+    <img id="image2" src="https://cdn.discordapp.com/emojis/742117417450209296.gif?v=1"/>
+    <img id="image3" src="https://cdn.discordapp.com/emojis/785071210580672522.gif?v=1"/>
+    <img id="image4" src="https://cdn.discordapp.com/emojis/698342597395218522.gif?v=1"/>
+    <img id="image5" src="https://cdn.discordapp.com/emojis/698342599823720499.gif?v=1"/>
 
-
-document.getElementById('image1').style.position="absolute"
-document.getElementById('image1').style.left="1258px"
-document.getElementById('image1').style.top="15px"
-
-document.getElementById('image2').style.position="absolute"
-document.getElementById('image2').style.left=`475px`
-document.getElementById('image2').style.top="6px"
-
-document.getElementById('image3').style.position="absolute"
-document.getElementById('image3').style.left=`105px`
-document.getElementById('image3').style.top="10px"
-
-document.getElementById('image4').style.position="absolute"
-document.getElementById('image4').style.left=`348px`
-document.getElementById('image4').style.top="550px"
-
-document.getElementById('image5').style.position="absolute"
-document.getElementById('image5').style.left=`666px`
-document.getElementById('image5').style.top="555px"
-
-    </script>
+    <script src="scripts.js"></script>
   </body>
 </html>
